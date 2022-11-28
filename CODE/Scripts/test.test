@@ -1,5 +1,0 @@
-import: shortcut;
-
-.test {
-    bkg = blue;
-}
