@@ -1,0 +1,17 @@
+import: comments;
+import: english;
+
+## These are imported comments.
+## They can be used in the code but won't be in the generated CSS.
+
+options {
+    set the --Backround to blue;
+}
+
+get the class test {
+    set the background to the variable(--Background);
+}
+
+get the tags body {
+    set the background to red;
+}
