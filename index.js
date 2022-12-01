@@ -1,8 +1,6 @@
 // TODO - Fix the comments bugs
 // TODO - Fix the plugins
 // TODO - Add more possibilities in english
-// TODO - Dynamic logs
-// TODO - Work on the Javascript import (You will be able to use document.style and everything like that.)
 
 // Imports
 var fs = require('fs');
@@ -248,6 +246,11 @@ fs.readFile('transfer.json', 'utf8', function(err, transfer) {
                         var data2 = data2.replaceAll("'s all unvisited links", ':link');
                         var data2 = data2.replaceAll("'s language", ':lang');
                         var data2 = data2.replaceAll("'s all visited links", ':visited');
+                        var data2 = data2.replaceAll("'s checked elements", ':checked');
+                        var data2 = data2.replaceAll("'s default elements", ':default');
+                        var data2 = data2.replaceAll("'s active links", ':active');
+                        var data2 = data2.replaceAll("'s focus element", ':focus');
+                        var data2 = data2.replaceAll("'s fullscreened elements", ':fullscreen');
 
                         // Getting Variables
                         var data2 = data2.replaceAll("get the property ", '');
