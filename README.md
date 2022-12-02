@@ -1,5 +1,5 @@
 # SPSS (Sparky Style Sheet)
-SPSS is a coding language that generates CSS.
+SPSS is a coding language that generates CSS by using Node.js and Python. You can start coding SPSS by downloading this project and by installing Python. You can create plugins for SPSS to have more possibilities.
 ## Start coding
 > START. BEFORE STARTING CODING PLEASE INSTALL PYTHON.
 > 1. To start coding SPSS you need to open the folder "CODE".
