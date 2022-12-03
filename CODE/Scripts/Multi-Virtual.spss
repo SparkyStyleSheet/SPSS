@@ -1,0 +1,85 @@
+<# Options #>
+options: {
+    --Transitions: ease 1s;
+    --desccolor1: #ffffff;
+    --desccolor2: #ffffff;
+    --MaxWidth: 2000px;
+    --MinWidth: 1000px;
+    --BoxTextTitle1: #2c00ff;
+    --BoxTextTitle2: #6200ff;
+    --BoxBorderColor: #3ca2b9;
+    --BoxBorderRadius: 10px;
+}
+
+<# Main CSS Code #>
+
+<# Html And Body #>
+body, html {margin: 0 auto;max-width: var(--MaxWidth);min-width: var(--MinWidth);}
+
+<# Nav Wrapper #>
+.navWrapper {margin: 0;list-style: none;display: flex;justify-content: space-evenly;height: 30px;}
+
+<# Nav #>
+.nav {transition: var(--Transitions);width: 100%;box-shadow: black 0px 0px 10px;border-top: solid black 1px;background: linear-gradient(to right, #0066ff8a, #18ffff52, #0066ff8a);}
+.nav:hover {transition: var(--Transitions);box-shadow: black 0px 0px 20px;}
+.navLinks {background: -webkit-linear-gradient(#000, #781515);-webkit-background-clip: text;-webkit-text-fill-color: transparent;font-size: 20px;font-weight: bold;font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;cursor: pointer;}
+
+<# Main #>
+.main {margin-top: 100px;margin-left: 20%;font-size: 50px;font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;font-weight: bold;background: -webkit-linear-gradient(#3caab5, #001534);-webkit-background-clip: text;-webkit-text-fill-color: transparent;text-align: -webkit-center;}
+
+<# Seperator #>
+.seperator {background: dodgerblue;width: 250px;height: 10px;border-radius: 10px;margin-top: -30px;}
+
+<# Main Image #>
+.mainImage {margin-top: 100px;margin-right: 10%;float: right;width: 250px;image-rendering: pixelated;margin-left: 62px;cursor: pointer;}
+
+<# Box1 #>
+.box1 {border-radius: var(--BoxBorderRadius);font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;background: linear-gradient( rgb(193 183 183), rgba(0,0,0,.5) ), url(./file/coffee.jpg);border: solid var(--BoxBorderColor) 1px;;width: 50%;height: 400px;background-size: cover;background-repeat: no-repeat;background-position-y: center;text-align: -webkit-center;transition: var(--Transitions);margin-right: 5px;}
+.box1:hover, .box2:hover {transition: var(--Transitions);transform: translate(0px, -5px);cursor: pointer;box-shadow: black 0px 0px 10px 3px;}
+
+<# Box2 #>
+.box2 {border-radius: var(--BoxBorderRadius);font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;background: linear-gradient( rgb(193 183 183), rgba(0,0,0,.5) ), url(./file/mine.png);border: solid var(--BoxBorderColor) 1px;;width: 50%;height: 400px;background-size: cover;background-repeat: no-repeat;background-position-y: center;text-align: -webkit-center;transition: var(--Transitions);margin-left: 5px;}
+
+<# Box Text #>
+.boxText {text-align: center;margin-top: 60px;font-size: 20px;font-weight: bold;border-radius: 10px;margin-left: 100px;margin-right: 100px;background: -webkit-linear-gradient(#0000007a, #000000eb);-webkit-background-clip: text;-webkit-text-fill-color: transparent;transform: translate(0px, -50px);height: 100px;margin-top: 80px;}
+
+<# P1 #>
+.p1 {margin-bottom: 500px;}
+
+<# Seperator 2 #>
+.seperator2 {text-align: -webkit-center;}
+
+<# Seperator 3 #>
+.seperator3 {transition: var(--Transitions); /* I think theres an error here ;) */gray;width: 250px;height: 10px;border-radius: 10px;margin-top: -30px;box-shadow: black 0px 2px 10px;}
+.seperator3:hover {transition: var(--Transitions);transform: scaleX(1.5)translate(0px, -3px);}
+
+<# PP3 #>
+.pp3 {text-align: -webkit-center;}
+
+<# Mail Inputs #>
+.mailInputs {margin-top: 10px;margin-bottom: 10px;background: linear-gradient(to bottom, #959595, #7b7b7b, #959595);border-radius: 10px;color: white;border: solid 3px gray;box-shadow: black 0px 0px 5px;transition: var(--Transitions);}
+.mailInputs:hover {box-shadow: black 0px 0px 10px;transform: scale(1.1);transition: var(--Transitions);}
+
+<# Mail Button #>
+.mailButton {transition: var(--Transitions); background: linear-gradient(to bottom, #69bfb7, #31a99e, #69bfb7);width: 70px;height: 30px;border-radius: 50px;}
+.mailButton:hover {transition: var(--Transitions);transform: scale(1.05);}
+
+<# Input #>
+.input {transition: var(--Transitions);background: linear-gradient(to bottom, #959595, #7b7b7b, #959595);width: 150px;height: auto;border-radius: 10px;border: solid 1px;color: white;box-shadow: black 0px 0px 5px;}
+.input:hover {box-shadow: black 0px 0px 10px;transform: scale(1.1);transition: var(--Transitions);}
+
+<# Button #>
+.button {transition: var(--Transitions);background: linear-gradient(to bottom, #69bfb7, #31a99e, #69bfb7);width: 70px;height: 30px;border-radius: 50px;}
+.button:hover {transition: var(--Transitions);transform: scale(1.05);}
+
+<# Box Text Title #>
+.boxTextTitle {margin-top: -25px;font-size: 25px;color: transparent;font-weight: bold;background: -webkit-linear-gradient(#3caab5, #001534);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+
+<# Box Popup #>
+.boxPopup {border: solid 1px;transform: translateY(-80px);text-align: center;vertical-align: middle;background: linear-gradient(to left, #b0b0b0, #d0d0d0, #b0b0b0), linear-gradient(to bottom, #b0b0b0, #d0d0d0, #b0b0b0);width: 70%;height: 100px;border-radius: 10px;}
+
+<# Box Staff #>
+.BoxStaff {transition: var(--Transitions);width: 250px;height: auto;color: black;margin-top: -10px;}
+
+<# Shape #>
+.shape {height: 500px;margin-top: 25px;left: 0;top: 0;border-top: 1px solid #31a99d;border-radius: 0 100% 0 0;margin-bottom: -460px;border-width: 5px;box-shadow: #31a99e -5px -10px 10px}

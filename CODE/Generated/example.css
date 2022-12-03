@@ -1,0 +1,41 @@
+
+
+
+
+
+
+
+
+
+.test:root {
+    --Cursor:pointer;
+}
+
+/*test*/
+.test {
+    background:blue;
+    color:red;
+    cursor:var(--Cursor);
+}
+
+
+.test:root {
+    --Cursor : pointer;
+}
+
+.test {
+    background : blue;
+    color : red;
+    cursor : var(--Cursor)
+}
+
+
+:root {
+    --Cursor : pointer;
+}
+
+.test {
+    background-image : blue;
+    color : red;
+    cursor : var(--Cursor);
+}

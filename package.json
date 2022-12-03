@@ -1,0 +1,14 @@
+{
+  "name": "spss",
+  "version": "1.0.0",
+  "description": "SPSS is a coding language that generates CSS.\r ## Start coding\r > START. BEFORE STARTING CODING PLEASE INSTALL PYTHON.\r > 1. To start coding SPSS you need to open the folder \"CODE\".\r > 2. Open the \".spss\" file.\r > 3. Start coding in that file.\r > 4. To generate the CSS, open the \"GENERATE\" shortcut.\r > 5. Look in the file \"generated.css\".",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^22.0.0"
+  }
+}
